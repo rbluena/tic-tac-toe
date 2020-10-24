@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  background-color: black;
+  max-width: 455px;
+}
+
+.board__row {
+  display: flex;
+}
+
+.board__cell {
+  width: 150px;
+  height: 150px;
+  background: white;
+  margin: 5px;
+}
