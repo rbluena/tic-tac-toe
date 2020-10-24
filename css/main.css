@@ -8,6 +8,10 @@
   max-width: 455px;
 }
 
+.board {
+  position: relative;
+}
+
 .board__row {
   display: flex;
 }
@@ -17,4 +21,20 @@
   height: 150px;
   background: white;
   margin: 5px;
+}
+
+.leader-board {
+  position: absolute;
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: none;
+}
+
+.leader-board .title {
+  font-size: 20px;
+  margin-top: 24px;
+  text-align: center;
 }
